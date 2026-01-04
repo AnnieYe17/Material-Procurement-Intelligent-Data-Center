@@ -1,0 +1,21 @@
+.venv/
+venv/
+env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+input_images/
+output/
+
+# === Logs ===
+*.log
+
+# === macOS ===
+.DS_Store
+
+# === IDE / Editor ===
+.vscode/
+.idea/
