@@ -19,3 +19,6 @@ output/
 # === IDE / Editor ===
 .vscode/
 .idea/
+
+# === Secrets ===
+.env

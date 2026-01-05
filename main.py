@@ -18,7 +18,8 @@ from pathlib import Path
 
 # ✅ 结构化抽取：建议放在文件顶部 import
 from extractor import extract_procurement_fields  # 如果你不是这样组织的，看下方“import 怎么改”
-
+from dotenv import load_dotenv
+load_dotenv()  # 从 .env 文件加载环境变量
 
 def is_image_file(filename: str) -> bool:
     """判断文件是不是常见图片格式"""
